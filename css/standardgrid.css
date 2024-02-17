@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  grid-template-columns: 10% 70% 1fr;
+  grid-template-rows: 100px auto 100px;
+  column-gap: 3%
+  margin: 0;
+}
+
+#main-home {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column: span 3;
+  background-image: url("../images/hero.png");
+  min-height: 800px;
+  align-items: center;
+}
+
+#main-others {
+  grid-row-start: 2;
+    grid-column-start: 2;
+  grid-gap: 3%;
+}
+
+#sidebar {
+  grid-row-start: 2;
+  grid-column-start: 3;
+}

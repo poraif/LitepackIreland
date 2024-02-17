@@ -1,0 +1,222 @@
+/* #56a96e green
+/* #6e56a9 purple
+/* #a96e56 brown */
+
+.navigation {
+  font-family: 'Arvo', Helvetica, Arial, sans-serif;
+  font-size: medium;
+  line-height: 1.6em;
+}
+
+
+/*----TEXT----*/
+
+body {
+  font-family: 'Arvo', Helvetica, Arial, sans-serif;
+  font-size: large;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+h1 {
+  color: #56a96e;
+  font-size: 300%;
+  font-weight: bolder;
+}
+
+h2 {
+  	color: #a96e56;
+  font-size: 200%;
+  font-weight: bold;
+  line-height: 1.2em;
+}
+
+h3 {
+  	color: #a96e56;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+p {
+	color: #333333;
+  	font-size: 100%;
+  	line-height: 1.6em;
+  	font-weight: normal;
+    max-width: 80%;
+}
+
+section {
+  font-weight: bold;
+  font-size: 110%;
+  line-height: 1.8em;
+}
+
+b {
+  color: #a96e56;
+}
+
+
+.home-text
+{
+  grid-row-start: 2;
+  margin-left: 120px;
+  font-weight: bolder;
+  font-size: 250%;
+  line-height: 2em;
+  color: #56a96e;
+  max-width: 50%
+}
+
+/*----LINKS----*/
+
+a {
+	color: #6e56a9;
+	font-weight: bolder;
+}
+
+a:hover {
+  color: white;
+  background-color: #56a96e;
+}
+
+
+.cta-box-link {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+/*----BUTTONS---*/
+
+.button-large {
+  background-color: #6e56a9;
+  border-radius: 30px 15px 30px 30px;
+  margin-left: 100px;
+  font-weight: bold;
+  font-size: 150%;
+  color: white;
+  text-decoration: none;
+  padding: 1em 2em 1em 2em; /*top right bottom left*/
+}
+
+.button-large a:visited {
+  color: white;
+}
+
+.button-small {
+  background-color: #6e56a9;
+  border-radius: 30px 15px 30px 30px;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  font-weight: bold;
+  align-self: left;
+  font-size: 100%;
+  color: white;
+  text-decoration: none;
+  padding: 1em 2em 1em 2em; /*top right bottom left*/
+}
+
+.button-small a:visited {
+  color: white;
+}
+
+/*---ASIDE---*/
+
+.tip {
+  background-color: #a96e56;
+  border-radius: 30px 15px 30px 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 40%;
+  line-height: 2em;
+  padding: 20px;
+  font-weight: lighter;
+  text-align: center;
+  color: white;
+  font-size: 80%;
+}
+
+aside p {
+  color: white;
+}
+
+/*----CALLS TO ACTION----*/
+
+.bottom-cta p {
+  margin-top: 50px;
+  font-size: 120%;
+  font-weight: bold;
+  align-content: center;
+}
+
+.cta-box {
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.cta-box p {
+  color: white;
+}
+
+#internal-cta {
+  background-color: #a96e56;
+    font-weight: bold;
+  color: white;
+}
+
+#external-cta {
+  background-color: #6e56a9;
+    font-weight: bold;
+  color: white;
+}
+
+
+
+
+
+/*----LISTS----*/
+
+.list-no-style {
+    list-style:none;
+    padding-left:0;
+    line-height: 2em;
+    max-width: 80%;
+    font-weight: lighter;
+    font-size: 80%
+  }
+
+
+
+
+
+
+/*----TABLES---*/
+
+table, th, td {
+  border: 0.5px solid;
+  border-color: #6e56a9;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 80%;
+}
+
+
+
+th {
+  text-align: left;
+  padding-left: 1px;
+  font-weight: bold;
+  color: white;
+  background-color: #56a96e;
+}
+
+
+
+
+.centred-place {
+  max-width: 600px;
+  text-align: center;
+}

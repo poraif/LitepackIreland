@@ -1,0 +1,137 @@
+
+
+/* ---------NAV BAR----------- */
+
+header {
+  display: flex;
+  background-color: #56a96e;
+  grid-row-start: 1;
+  grid-column: span 4;
+  height: auto;
+  width: 100%;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+ul#menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+    padding-right: 1.5em;
+    list-style: none;
+}
+
+ul#menu a {
+  font-family: 'Arvo', Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background-color: #56a96e;
+  padding-left: 5px;
+  padding: .5em 2em .5em 2em;
+}
+
+#logo {
+  display: flex;
+  margin-left: 5px;
+  padding: 10px;
+}
+
+#menu li.active a {
+  background: white;
+  font-weight: bold;
+  color: #56a96e;
+  padding: .5em 1em .5em 1em;
+}
+
+/*--------FOOTER------------*/
+
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #a96e56;
+  grid-row-start: 3;
+  grid-column: span 3;
+  margin: 0;
+}
+
+
+ul#footer-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+  list-style: none;
+  width: 100%;
+  padding-right: 1em;
+  padding-left: 1em;
+  color: white;
+}
+
+ul#footer-menu a {
+  font-family: 'Arvo', Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background-color: #a96e56;
+  padding-left: 5px;
+  padding: .5em 2em .5em 2em;
+}
+
+
+
+/*----DESTINATIONS SIDEBAR NAV----*/
+
+
+#destinations-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-row-start: 2;
+  grid-column-start: 1;
+  margin-left: 50px;
+  margin-top: 100px;
+  width: 100px;
+}
+
+ul#destinations-menu {
+  font-weight: bold;
+  justify-content: center;
+  text-decoration: none;
+  list-style: none;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+ul#destinations-menu a {
+  font-family: 'Arvo', Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  color: #56a96e;
+  padding: .5em 2em .5em 2em;
+}
+
+#active-2 {
+  border-style: dashed;
+  border-color: #a96e56;
+  font-weight: bold;
+  padding: .5em .5em .5em .5em;
+}
+
+
+
+
+#active-2 a:hover {
+  color: white;
+}
+
+#destinations-menu li a:hover {
+color: white;
+}
+

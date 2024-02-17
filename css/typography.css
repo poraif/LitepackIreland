@@ -1,0 +1,67 @@
+/* #56a96e green
+/* #6e56a9 purple
+/* #a96e56 brown */
+
+.navigation {
+  font-family: 'Arvo', Helvetica, Arial, sans-serif;
+  font-size: medium;
+  line-height: 1.6em;
+}
+
+body {
+  font-family: 'Arvo', Helvetica, Arial, sans-serif;
+  font-size: large;
+  line-height: 1.6em;
+}
+
+
+h1 {
+  color: #56a96e;
+  font-size: 250%;
+  font-weight: bolder;
+}
+
+h2 {
+  	color: #a96e56;
+  font-size: 200%;
+  font-weight: bold;
+  line-height: 1.2em;
+}
+
+h3 {
+  	color: #a96e56;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+p {
+	color: #333333;
+  	font-size: 100%;
+  	line-height: 1.6em;
+  	font-weight: normal;
+}
+
+a {
+	color: #6e56a9;
+	font-weight: bolder;
+}
+
+a:hover {
+  background-color: #56a96e;
+}
+
+a:visited {
+  color: #56a96e;
+}
+
+.button-large {
+	background: center;
+	background-color: #6e56a9;
+	font-weight: bold;
+	font-size: 300%;
+	padding: 1em 4em 1em 4em; /*top right bottom left*/
+}
+
+.list-no-style li {
+  list-style-type: none;
+}

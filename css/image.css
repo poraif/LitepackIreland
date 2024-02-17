@@ -1,0 +1,27 @@
+.medium-rounded-img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+.large-centre-img {
+  display: inline-block;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.medium-left-img {
+  width: 150px;
+  float: left;
+  margin: 10px;
+  margin-bottom: 40px;
+}
+
+}
+
+#location-tile img {
+  border-radius: 10px;
+  width: 200px;
+}
