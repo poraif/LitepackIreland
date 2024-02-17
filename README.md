@@ -9,8 +9,8 @@ Visit https://litepackireland.netlify.app/ to view the deployed site.
 ## Key features
 1.	Written using semantic HTML for SEO optimisation and for accessibility for those relying on screen readers.
 2.	CSS written from scratch with multiple style sheets.
-3.	Optimal web design practices for legibility and ease of site navigation.
-4.	Use of the Eleventy framework to implement partials and layouts.
+3.	Used Eleventy site generator for templating, and converted html files to Nunjucks templating language, to implement templating on the sit.
+5.	Optimal web design practices for legibility and ease of site navigation.
 
 ## User guide
 1. Download repository zip file.
